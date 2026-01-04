@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Data artifacts
+/data_pipeline.db
+/logs/
+/processed/
+/reports/*.csv
+
+# Streamlit
+.streamlit/
+
+# Node/build (if any)
+dist/
+build/
